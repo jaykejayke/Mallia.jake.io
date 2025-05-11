@@ -5,13 +5,20 @@
 
 
 
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+
+
+
+
+
+
 
 
 .nav-link:focus{
@@ -22,6 +29,7 @@
     color: #EA4E1D;
     font-family: lova;
     font-size: 300%;
+    margin-left: 2%;
 }
 
 .nav-link:hover{
@@ -44,10 +52,9 @@
     background-color: #EA4E1D;
 }
 
-
 .search-pos{
     position: absolute;
-    right: 1%;
+    right: 2%;
 }
 
 .search-box{
@@ -73,6 +80,14 @@
     font-family: lova;
     font-size: 300%;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -127,6 +142,72 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-left{
+    margin-left: 9%;
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.card-centre{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.card-right{
+    margin-left: 3%;
+    margin-right: 9%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.card-img-top{
+    padding: .5%;
+    border-radius: 2%;
+    padding-top: 3.5%;
+}
+
+.btn-card{
+    width: 100%;
+    color: #EA4E1D;
+    background-color: #000000;
+
+    border: none;
+    font-size: 150%;
+}
+
+.btn-card:hover{
+    width: 100%;
+    color: #000000;
+    background-color: #EA4E1D;
+    font-family: lova;
+    border: none;
+    font-size: 150%;
+}
+
+.card-title{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: lova;
+    font-size: 160%;
+}
 
 
 
